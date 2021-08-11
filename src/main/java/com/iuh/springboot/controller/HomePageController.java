@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomePageController {
 	@RequestMapping("/")
     public String index() {
-        return "redirect:http://localhost:8080/swagger-ui.html";
+        return "redirect:http://rkhang7-api-employee.herokuapp.com/swagger-ui.html";
     }
 }
